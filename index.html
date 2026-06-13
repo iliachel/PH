@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Философия - Вопросы</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <button id="menu-toggle" aria-label="Открыть меню">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <h1>Философия</h1>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Поиск вопроса...">
+        </div>
+    </header>
+
+    <div class="container">
+        <nav id="sidebar">
+            <ul id="questions-list">
+                <!-- Список вопросов будет здесь -->
+            </ul>
+        </nav>
+
+        <main id="content">
+            <div id="welcome-message">
+                <h2>Добро пожаловать</h2>
+                <p>Выберите вопрос в меню слева для просмотра содержания.</p>
+            </div>
+            <article id="question-display">
+                <!-- Содержание вопроса будет здесь -->
+            </article>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
